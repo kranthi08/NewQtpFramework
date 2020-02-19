@@ -1,0 +1,587 @@
+﻿<qtpRep:ObjectRepository xmlns:qtpRep="http://www.mercury.com/qtp/ObjectRepository">
+<qtpRep:Objects>
+<qtpRep:Object Class="Window" Name="Flight Reservation">
+<qtpRep:Properties>
+<qtpRep:Property Name="regexpwndtitle" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">Flight Reservation</qtpRep:Value>	</qtpRep:Property>
+<qtpRep:Property Name="regexpwndclass" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">Afx:</qtpRep:Value>	</qtpRep:Property>
+<qtpRep:Property Name="is owned window" Hidden="0" ReadOnly="0" Type="BOOL">	<qtpRep:Value RegularExpression="0">0</qtpRep:Value>	</qtpRep:Property>
+<qtpRep:Property Name="is child window" Hidden="0" ReadOnly="0" Type="BOOL">	<qtpRep:Value RegularExpression="0">0</qtpRep:Value>	</qtpRep:Property>
+</qtpRep:Properties>
+<qtpRep:BasicIdentification>
+<qtpRep:PropertyRef>regexpwndtitle</qtpRep:PropertyRef>
+<qtpRep:PropertyRef>regexpwndclass</qtpRep:PropertyRef>
+<qtpRep:PropertyRef>is owned window</qtpRep:PropertyRef>
+<qtpRep:PropertyRef>is child window</qtpRep:PropertyRef>
+</qtpRep:BasicIdentification>
+<qtpRep:CustomReplay>
+<qtpRep:Behavior Name="simclass" Type="STRING">Afx:400000:b:10011:6:1960517</qtpRep:Behavior>
+</qtpRep:CustomReplay>
+<qtpRep:LastUpdateTime>Wednesday, August 05, 2009 11:01:46</qtpRep:LastUpdateTime>
+<qtpRep:ChildObjects>
+<qtpRep:Object Class="WinRadioButton" Name="First">
+<qtpRep:Properties>
+<qtpRep:Property Name="text" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">First</qtpRep:Value>	</qtpRep:Property>
+<qtpRep:Property Name="nativeclass" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">Button</qtpRep:Value>	</qtpRep:Property>
+</qtpRep:Properties>
+<qtpRep:BasicIdentification>
+<qtpRep:PropertyRef>text</qtpRep:PropertyRef>
+<qtpRep:PropertyRef>nativeclass</qtpRep:PropertyRef>
+</qtpRep:BasicIdentification>
+<qtpRep:CustomReplay>
+<qtpRep:Behavior Name="simclass" Type="STRING">Button</qtpRep:Behavior>
+</qtpRep:CustomReplay>
+<qtpRep:LastUpdateTime>Wednesday, August 05, 2009 11:01:46</qtpRep:LastUpdateTime>
+<qtpRep:ChildObjects>
+</qtpRep:ChildObjects>
+</qtpRep:Object>
+<qtpRep:Object Class="WinRadioButton" Name="Economy">
+<qtpRep:Properties>
+<qtpRep:Property Name="text" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">Economy</qtpRep:Value>	</qtpRep:Property>
+<qtpRep:Property Name="nativeclass" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">Button</qtpRep:Value>	</qtpRep:Property>
+</qtpRep:Properties>
+<qtpRep:BasicIdentification>
+<qtpRep:PropertyRef>text</qtpRep:PropertyRef>
+<qtpRep:PropertyRef>nativeclass</qtpRep:PropertyRef>
+</qtpRep:BasicIdentification>
+<qtpRep:CustomReplay>
+<qtpRep:Behavior Name="simclass" Type="STRING">Button</qtpRep:Behavior>
+</qtpRep:CustomReplay>
+<qtpRep:LastUpdateTime>Wednesday, August 05, 2009 11:01:46</qtpRep:LastUpdateTime>
+<qtpRep:ChildObjects>
+</qtpRep:ChildObjects>
+</qtpRep:Object>
+<qtpRep:Object Class="WinRadioButton" Name="Business">
+<qtpRep:Properties>
+<qtpRep:Property Name="text" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">Business</qtpRep:Value>	</qtpRep:Property>
+<qtpRep:Property Name="nativeclass" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">Button</qtpRep:Value>	</qtpRep:Property>
+</qtpRep:Properties>
+<qtpRep:BasicIdentification>
+<qtpRep:PropertyRef>text</qtpRep:PropertyRef>
+<qtpRep:PropertyRef>nativeclass</qtpRep:PropertyRef>
+</qtpRep:BasicIdentification>
+<qtpRep:CustomReplay>
+<qtpRep:Behavior Name="simclass" Type="STRING">Button</qtpRep:Behavior>
+</qtpRep:CustomReplay>
+<qtpRep:LastUpdateTime>Wednesday, August 05, 2009 11:01:46</qtpRep:LastUpdateTime>
+<qtpRep:ChildObjects>
+</qtpRep:ChildObjects>
+</qtpRep:Object>
+<qtpRep:Object Class="WinMenu" Name="Menu">
+<qtpRep:Properties>
+<qtpRep:Property Name="menuobjtype" Hidden="0" ReadOnly="0" Type="NUMBER">	<qtpRep:Value RegularExpression="0">2</qtpRep:Value>	</qtpRep:Property>
+</qtpRep:Properties>
+<qtpRep:BasicIdentification>
+<qtpRep:PropertyRef>menuobjtype</qtpRep:PropertyRef>
+</qtpRep:BasicIdentification>
+<qtpRep:LastUpdateTime>Wednesday, August 05, 2009 11:01:46</qtpRep:LastUpdateTime>
+<qtpRep:ChildObjects>
+</qtpRep:ChildObjects>
+</qtpRep:Object>
+<qtpRep:Object Class="WinEdit" Name="Total:">
+<qtpRep:Properties>
+<qtpRep:Property Name="nativeclass" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">Edit</qtpRep:Value>	</qtpRep:Property>
+<qtpRep:Property Name="attached text" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">Total:</qtpRep:Value>	</qtpRep:Property>
+</qtpRep:Properties>
+<qtpRep:BasicIdentification>
+<qtpRep:PropertyRef>nativeclass</qtpRep:PropertyRef>
+<qtpRep:PropertyRef>attached text</qtpRep:PropertyRef>
+</qtpRep:BasicIdentification>
+<qtpRep:CustomReplay>
+<qtpRep:Behavior Name="simclass" Type="STRING">Edit</qtpRep:Behavior>
+</qtpRep:CustomReplay>
+<qtpRep:LastUpdateTime>Wednesday, August 05, 2009 11:01:46</qtpRep:LastUpdateTime>
+<qtpRep:ChildObjects>
+</qtpRep:ChildObjects>
+</qtpRep:Object>
+<qtpRep:Object Class="WinEdit" Name="Tickets:">
+<qtpRep:Properties>
+<qtpRep:Property Name="nativeclass" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">Edit</qtpRep:Value>	</qtpRep:Property>
+<qtpRep:Property Name="attached text" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">Tickets:</qtpRep:Value>	</qtpRep:Property>
+</qtpRep:Properties>
+<qtpRep:BasicIdentification>
+<qtpRep:PropertyRef>nativeclass</qtpRep:PropertyRef>
+<qtpRep:PropertyRef>attached text</qtpRep:PropertyRef>
+</qtpRep:BasicIdentification>
+<qtpRep:CustomReplay>
+<qtpRep:Behavior Name="simclass" Type="STRING">Edit</qtpRep:Behavior>
+</qtpRep:CustomReplay>
+<qtpRep:LastUpdateTime>Wednesday, August 05, 2009 11:01:46</qtpRep:LastUpdateTime>
+<qtpRep:ChildObjects>
+</qtpRep:ChildObjects>
+</qtpRep:Object>
+<qtpRep:Object Class="WinEdit" Name="Price:">
+<qtpRep:Properties>
+<qtpRep:Property Name="nativeclass" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">Edit</qtpRep:Value>	</qtpRep:Property>
+<qtpRep:Property Name="attached text" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">Price:</qtpRep:Value>	</qtpRep:Property>
+</qtpRep:Properties>
+<qtpRep:BasicIdentification>
+<qtpRep:PropertyRef>nativeclass</qtpRep:PropertyRef>
+<qtpRep:PropertyRef>attached text</qtpRep:PropertyRef>
+</qtpRep:BasicIdentification>
+<qtpRep:CustomReplay>
+<qtpRep:Behavior Name="simclass" Type="STRING">Edit</qtpRep:Behavior>
+</qtpRep:CustomReplay>
+<qtpRep:LastUpdateTime>Wednesday, August 05, 2009 11:01:46</qtpRep:LastUpdateTime>
+<qtpRep:ChildObjects>
+</qtpRep:ChildObjects>
+</qtpRep:Object>
+<qtpRep:Object Class="WinEdit" Name="Order No:">
+<qtpRep:Properties>
+<qtpRep:Property Name="nativeclass" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">Edit</qtpRep:Value>	</qtpRep:Property>
+<qtpRep:Property Name="attached text" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">Order No:</qtpRep:Value>	</qtpRep:Property>
+</qtpRep:Properties>
+<qtpRep:BasicIdentification>
+<qtpRep:PropertyRef>nativeclass</qtpRep:PropertyRef>
+<qtpRep:PropertyRef>attached text</qtpRep:PropertyRef>
+</qtpRep:BasicIdentification>
+<qtpRep:CustomReplay>
+<qtpRep:Behavior Name="simclass" Type="STRING">Edit</qtpRep:Behavior>
+</qtpRep:CustomReplay>
+<qtpRep:LastUpdateTime>Wednesday, August 05, 2009 11:01:46</qtpRep:LastUpdateTime>
+<qtpRep:ChildObjects>
+</qtpRep:ChildObjects>
+</qtpRep:Object>
+<qtpRep:Object Class="WinEdit" Name="Name:">
+<qtpRep:Properties>
+<qtpRep:Property Name="nativeclass" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">Edit</qtpRep:Value>	</qtpRep:Property>
+<qtpRep:Property Name="attached text" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">Name:</qtpRep:Value>	</qtpRep:Property>
+</qtpRep:Properties>
+<qtpRep:BasicIdentification>
+<qtpRep:PropertyRef>nativeclass</qtpRep:PropertyRef>
+<qtpRep:PropertyRef>attached text</qtpRep:PropertyRef>
+</qtpRep:BasicIdentification>
+<qtpRep:CustomReplay>
+<qtpRep:Behavior Name="simclass" Type="STRING">Edit</qtpRep:Behavior>
+</qtpRep:CustomReplay>
+<qtpRep:LastUpdateTime>Wednesday, August 05, 2009 11:01:46</qtpRep:LastUpdateTime>
+<qtpRep:ChildObjects>
+</qtpRep:ChildObjects>
+</qtpRep:Object>
+<qtpRep:Object Class="WinEdit" Name="Flight No:">
+<qtpRep:Properties>
+<qtpRep:Property Name="nativeclass" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">Edit</qtpRep:Value>	</qtpRep:Property>
+<qtpRep:Property Name="attached text" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">Flight No:</qtpRep:Value>	</qtpRep:Property>
+</qtpRep:Properties>
+<qtpRep:BasicIdentification>
+<qtpRep:PropertyRef>nativeclass</qtpRep:PropertyRef>
+<qtpRep:PropertyRef>attached text</qtpRep:PropertyRef>
+</qtpRep:BasicIdentification>
+<qtpRep:CustomReplay>
+<qtpRep:Behavior Name="simclass" Type="STRING">Edit</qtpRep:Behavior>
+</qtpRep:CustomReplay>
+<qtpRep:LastUpdateTime>Wednesday, August 05, 2009 11:01:46</qtpRep:LastUpdateTime>
+<qtpRep:ChildObjects>
+</qtpRep:ChildObjects>
+</qtpRep:Object>
+<qtpRep:Object Class="WinEdit" Name="Departure Time:">
+<qtpRep:Properties>
+<qtpRep:Property Name="nativeclass" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">Edit</qtpRep:Value>	</qtpRep:Property>
+<qtpRep:Property Name="attached text" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">Departure Time:</qtpRep:Value>	</qtpRep:Property>
+</qtpRep:Properties>
+<qtpRep:BasicIdentification>
+<qtpRep:PropertyRef>nativeclass</qtpRep:PropertyRef>
+<qtpRep:PropertyRef>attached text</qtpRep:PropertyRef>
+</qtpRep:BasicIdentification>
+<qtpRep:CustomReplay>
+<qtpRep:Behavior Name="simclass" Type="STRING">Edit</qtpRep:Behavior>
+</qtpRep:CustomReplay>
+<qtpRep:LastUpdateTime>Wednesday, August 05, 2009 11:01:46</qtpRep:LastUpdateTime>
+<qtpRep:ChildObjects>
+</qtpRep:ChildObjects>
+</qtpRep:Object>
+<qtpRep:Object Class="WinEdit" Name="Arrival Time:">
+<qtpRep:Properties>
+<qtpRep:Property Name="nativeclass" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">Edit</qtpRep:Value>	</qtpRep:Property>
+<qtpRep:Property Name="attached text" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">Arrival Time:</qtpRep:Value>	</qtpRep:Property>
+</qtpRep:Properties>
+<qtpRep:BasicIdentification>
+<qtpRep:PropertyRef>nativeclass</qtpRep:PropertyRef>
+<qtpRep:PropertyRef>attached text</qtpRep:PropertyRef>
+</qtpRep:BasicIdentification>
+<qtpRep:CustomReplay>
+<qtpRep:Behavior Name="simclass" Type="STRING">Edit</qtpRep:Behavior>
+</qtpRep:CustomReplay>
+<qtpRep:LastUpdateTime>Wednesday, August 05, 2009 11:01:46</qtpRep:LastUpdateTime>
+<qtpRep:ChildObjects>
+</qtpRep:ChildObjects>
+</qtpRep:Object>
+<qtpRep:Object Class="WinEdit" Name="Airline:">
+<qtpRep:Properties>
+<qtpRep:Property Name="nativeclass" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">Edit</qtpRep:Value>	</qtpRep:Property>
+<qtpRep:Property Name="attached text" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">Airline:</qtpRep:Value>	</qtpRep:Property>
+</qtpRep:Properties>
+<qtpRep:BasicIdentification>
+<qtpRep:PropertyRef>nativeclass</qtpRep:PropertyRef>
+<qtpRep:PropertyRef>attached text</qtpRep:PropertyRef>
+</qtpRep:BasicIdentification>
+<qtpRep:CustomReplay>
+<qtpRep:Behavior Name="simclass" Type="STRING">Edit</qtpRep:Behavior>
+</qtpRep:CustomReplay>
+<qtpRep:LastUpdateTime>Wednesday, August 05, 2009 11:01:46</qtpRep:LastUpdateTime>
+<qtpRep:ChildObjects>
+</qtpRep:ChildObjects>
+</qtpRep:Object>
+<qtpRep:Object Class="WinComboBox" Name="Fly To:">
+<qtpRep:Properties>
+<qtpRep:Property Name="nativeclass" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">ComboBox</qtpRep:Value>	</qtpRep:Property>
+<qtpRep:Property Name="attached text" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">Fly To:</qtpRep:Value>	</qtpRep:Property>
+</qtpRep:Properties>
+<qtpRep:BasicIdentification>
+<qtpRep:PropertyRef>nativeclass</qtpRep:PropertyRef>
+<qtpRep:PropertyRef>attached text</qtpRep:PropertyRef>
+</qtpRep:BasicIdentification>
+<qtpRep:CustomReplay>
+<qtpRep:Behavior Name="simclass" Type="STRING">ComboBox</qtpRep:Behavior>
+</qtpRep:CustomReplay>
+<qtpRep:LastUpdateTime>Wednesday, August 05, 2009 11:01:46</qtpRep:LastUpdateTime>
+<qtpRep:ChildObjects>
+</qtpRep:ChildObjects>
+</qtpRep:Object>
+<qtpRep:Object Class="WinComboBox" Name="Fly From:">
+<qtpRep:Properties>
+<qtpRep:Property Name="nativeclass" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">ComboBox</qtpRep:Value>	</qtpRep:Property>
+<qtpRep:Property Name="attached text" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">Fly From:</qtpRep:Value>	</qtpRep:Property>
+</qtpRep:Properties>
+<qtpRep:BasicIdentification>
+<qtpRep:PropertyRef>nativeclass</qtpRep:PropertyRef>
+<qtpRep:PropertyRef>attached text</qtpRep:PropertyRef>
+</qtpRep:BasicIdentification>
+<qtpRep:CustomReplay>
+<qtpRep:Behavior Name="simclass" Type="STRING">ComboBox</qtpRep:Behavior>
+</qtpRep:CustomReplay>
+<qtpRep:LastUpdateTime>Wednesday, August 05, 2009 11:01:46</qtpRep:LastUpdateTime>
+<qtpRep:ChildObjects>
+</qtpRep:ChildObjects>
+</qtpRep:Object>
+<qtpRep:Object Class="WinButton" Name="Update Order">
+<qtpRep:Properties>
+<qtpRep:Property Name="text" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">&amp;Update Order</qtpRep:Value>	</qtpRep:Property>
+<qtpRep:Property Name="nativeclass" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">Button</qtpRep:Value>	</qtpRep:Property>
+</qtpRep:Properties>
+<qtpRep:BasicIdentification>
+<qtpRep:PropertyRef>text</qtpRep:PropertyRef>
+<qtpRep:PropertyRef>nativeclass</qtpRep:PropertyRef>
+</qtpRep:BasicIdentification>
+<qtpRep:CustomReplay>
+<qtpRep:Behavior Name="simclass" Type="STRING">Button</qtpRep:Behavior>
+</qtpRep:CustomReplay>
+<qtpRep:LastUpdateTime>Wednesday, August 05, 2009 11:01:46</qtpRep:LastUpdateTime>
+<qtpRep:ChildObjects>
+</qtpRep:ChildObjects>
+</qtpRep:Object>
+<qtpRep:Object Class="WinButton" Name="REPORT">
+<qtpRep:Properties>
+<qtpRep:Property Name="text" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">REPORT</qtpRep:Value>	</qtpRep:Property>
+<qtpRep:Property Name="nativeclass" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">Button</qtpRep:Value>	</qtpRep:Property>
+</qtpRep:Properties>
+<qtpRep:BasicIdentification>
+<qtpRep:PropertyRef>text</qtpRep:PropertyRef>
+<qtpRep:PropertyRef>nativeclass</qtpRep:PropertyRef>
+</qtpRep:BasicIdentification>
+<qtpRep:CustomReplay>
+<qtpRep:Behavior Name="simclass" Type="STRING">Button</qtpRep:Behavior>
+</qtpRep:CustomReplay>
+<qtpRep:LastUpdateTime>Wednesday, August 05, 2009 11:01:46</qtpRep:LastUpdateTime>
+<qtpRep:ChildObjects>
+</qtpRep:ChildObjects>
+</qtpRep:Object>
+<qtpRep:Object Class="WinButton" Name="QUESTION">
+<qtpRep:Properties>
+<qtpRep:Property Name="text" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">QUESTION</qtpRep:Value>	</qtpRep:Property>
+<qtpRep:Property Name="nativeclass" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">Button</qtpRep:Value>	</qtpRep:Property>
+</qtpRep:Properties>
+<qtpRep:BasicIdentification>
+<qtpRep:PropertyRef>text</qtpRep:PropertyRef>
+<qtpRep:PropertyRef>nativeclass</qtpRep:PropertyRef>
+</qtpRep:BasicIdentification>
+<qtpRep:CustomReplay>
+<qtpRep:Behavior Name="simclass" Type="STRING">Button</qtpRep:Behavior>
+</qtpRep:CustomReplay>
+<qtpRep:LastUpdateTime>Wednesday, August 05, 2009 11:01:46</qtpRep:LastUpdateTime>
+<qtpRep:ChildObjects>
+</qtpRep:ChildObjects>
+</qtpRep:Object>
+<qtpRep:Object Class="WinButton" Name="OPENORDERB">
+<qtpRep:Properties>
+<qtpRep:Property Name="text" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">OPENORDERB</qtpRep:Value>	</qtpRep:Property>
+<qtpRep:Property Name="nativeclass" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">Button</qtpRep:Value>	</qtpRep:Property>
+</qtpRep:Properties>
+<qtpRep:BasicIdentification>
+<qtpRep:PropertyRef>text</qtpRep:PropertyRef>
+<qtpRep:PropertyRef>nativeclass</qtpRep:PropertyRef>
+</qtpRep:BasicIdentification>
+<qtpRep:CustomReplay>
+<qtpRep:Behavior Name="simclass" Type="STRING">Button</qtpRep:Behavior>
+</qtpRep:CustomReplay>
+<qtpRep:LastUpdateTime>Wednesday, August 05, 2009 11:01:46</qtpRep:LastUpdateTime>
+<qtpRep:ChildObjects>
+</qtpRep:ChildObjects>
+</qtpRep:Object>
+<qtpRep:Object Class="WinButton" Name="Insert Order">
+<qtpRep:Properties>
+<qtpRep:Property Name="text" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">&amp;Insert Order</qtpRep:Value>	</qtpRep:Property>
+<qtpRep:Property Name="nativeclass" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">Button</qtpRep:Value>	</qtpRep:Property>
+</qtpRep:Properties>
+<qtpRep:BasicIdentification>
+<qtpRep:PropertyRef>text</qtpRep:PropertyRef>
+<qtpRep:PropertyRef>nativeclass</qtpRep:PropertyRef>
+</qtpRep:BasicIdentification>
+<qtpRep:CustomReplay>
+<qtpRep:Behavior Name="simclass" Type="STRING">Button</qtpRep:Behavior>
+</qtpRep:CustomReplay>
+<qtpRep:LastUpdateTime>Wednesday, August 05, 2009 11:01:46</qtpRep:LastUpdateTime>
+<qtpRep:ChildObjects>
+</qtpRep:ChildObjects>
+</qtpRep:Object>
+<qtpRep:Object Class="WinButton" Name="GRAPH">
+<qtpRep:Properties>
+<qtpRep:Property Name="text" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">GRAPH</qtpRep:Value>	</qtpRep:Property>
+<qtpRep:Property Name="nativeclass" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">Button</qtpRep:Value>	</qtpRep:Property>
+</qtpRep:Properties>
+<qtpRep:BasicIdentification>
+<qtpRep:PropertyRef>text</qtpRep:PropertyRef>
+<qtpRep:PropertyRef>nativeclass</qtpRep:PropertyRef>
+</qtpRep:BasicIdentification>
+<qtpRep:CustomReplay>
+<qtpRep:Behavior Name="simclass" Type="STRING">Button</qtpRep:Behavior>
+</qtpRep:CustomReplay>
+<qtpRep:LastUpdateTime>Wednesday, August 05, 2009 11:01:46</qtpRep:LastUpdateTime>
+<qtpRep:ChildObjects>
+</qtpRep:ChildObjects>
+</qtpRep:Object>
+<qtpRep:Object Class="WinButton" Name="FLIGHT">
+<qtpRep:Properties>
+<qtpRep:Property Name="text" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">FLIGHT</qtpRep:Value>	</qtpRep:Property>
+<qtpRep:Property Name="nativeclass" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">Button</qtpRep:Value>	</qtpRep:Property>
+</qtpRep:Properties>
+<qtpRep:BasicIdentification>
+<qtpRep:PropertyRef>text</qtpRep:PropertyRef>
+<qtpRep:PropertyRef>nativeclass</qtpRep:PropertyRef>
+</qtpRep:BasicIdentification>
+<qtpRep:CustomReplay>
+<qtpRep:Behavior Name="simclass" Type="STRING">Button</qtpRep:Behavior>
+</qtpRep:CustomReplay>
+<qtpRep:LastUpdateTime>Wednesday, August 05, 2009 11:01:46</qtpRep:LastUpdateTime>
+<qtpRep:ChildObjects>
+</qtpRep:ChildObjects>
+</qtpRep:Object>
+<qtpRep:Object Class="WinButton" Name="FILENEW">
+<qtpRep:Properties>
+<qtpRep:Property Name="text" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">FILENEW</qtpRep:Value>	</qtpRep:Property>
+<qtpRep:Property Name="nativeclass" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">Button</qtpRep:Value>	</qtpRep:Property>
+</qtpRep:Properties>
+<qtpRep:BasicIdentification>
+<qtpRep:PropertyRef>text</qtpRep:PropertyRef>
+<qtpRep:PropertyRef>nativeclass</qtpRep:PropertyRef>
+</qtpRep:BasicIdentification>
+<qtpRep:CustomReplay>
+<qtpRep:Behavior Name="simclass" Type="STRING">Button</qtpRep:Behavior>
+</qtpRep:CustomReplay>
+<qtpRep:LastUpdateTime>Wednesday, August 05, 2009 11:01:46</qtpRep:LastUpdateTime>
+<qtpRep:ChildObjects>
+</qtpRep:ChildObjects>
+</qtpRep:Object>
+<qtpRep:Object Class="WinButton" Name="DELETEORDER">
+<qtpRep:Properties>
+<qtpRep:Property Name="text" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">DELETEORDER</qtpRep:Value>	</qtpRep:Property>
+<qtpRep:Property Name="nativeclass" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">Button</qtpRep:Value>	</qtpRep:Property>
+</qtpRep:Properties>
+<qtpRep:BasicIdentification>
+<qtpRep:PropertyRef>text</qtpRep:PropertyRef>
+<qtpRep:PropertyRef>nativeclass</qtpRep:PropertyRef>
+</qtpRep:BasicIdentification>
+<qtpRep:CustomReplay>
+<qtpRep:Behavior Name="simclass" Type="STRING">Button</qtpRep:Behavior>
+</qtpRep:CustomReplay>
+<qtpRep:LastUpdateTime>Wednesday, August 05, 2009 11:01:46</qtpRep:LastUpdateTime>
+<qtpRep:ChildObjects>
+</qtpRep:ChildObjects>
+</qtpRep:Object>
+<qtpRep:Object Class="WinButton" Name="Delete Order">
+<qtpRep:Properties>
+<qtpRep:Property Name="text" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">&amp;Delete Order</qtpRep:Value>	</qtpRep:Property>
+<qtpRep:Property Name="nativeclass" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">Button</qtpRep:Value>	</qtpRep:Property>
+</qtpRep:Properties>
+<qtpRep:BasicIdentification>
+<qtpRep:PropertyRef>text</qtpRep:PropertyRef>
+<qtpRep:PropertyRef>nativeclass</qtpRep:PropertyRef>
+</qtpRep:BasicIdentification>
+<qtpRep:CustomReplay>
+<qtpRep:Behavior Name="simclass" Type="STRING">Button</qtpRep:Behavior>
+</qtpRep:CustomReplay>
+<qtpRep:LastUpdateTime>Wednesday, August 05, 2009 11:01:46</qtpRep:LastUpdateTime>
+<qtpRep:ChildObjects>
+</qtpRep:ChildObjects>
+</qtpRep:Object>
+<qtpRep:Object Class="ActiveX" Name="Threed Panel Control">
+<qtpRep:Properties>
+<qtpRep:Property Name="progid" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">Threed.SSPanel</qtpRep:Value>	</qtpRep:Property>
+</qtpRep:Properties>
+<qtpRep:BasicIdentification>
+<qtpRep:PropertyRef>progid</qtpRep:PropertyRef>
+</qtpRep:BasicIdentification>
+<qtpRep:CustomReplay>
+<qtpRep:Behavior Name="simclass" Type="STRING">Threed.SSPanel</qtpRep:Behavior>
+</qtpRep:CustomReplay>
+<qtpRep:LastUpdateTime>Wednesday, August 05, 2009 11:01:46</qtpRep:LastUpdateTime>
+<qtpRep:ChildObjects>
+</qtpRep:ChildObjects>
+</qtpRep:Object>
+<qtpRep:Object Class="ActiveX" Name="MaskEdBox">
+<qtpRep:Properties>
+<qtpRep:Property Name="progid" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">MSMask.MaskEdBox.1</qtpRep:Value>	</qtpRep:Property>
+</qtpRep:Properties>
+<qtpRep:BasicIdentification>
+<qtpRep:PropertyRef>progid</qtpRep:PropertyRef>
+</qtpRep:BasicIdentification>
+<qtpRep:CustomReplay>
+<qtpRep:Behavior Name="simclass" Type="STRING">MSMask.MaskEdBox.1</qtpRep:Behavior>
+</qtpRep:CustomReplay>
+<qtpRep:LastUpdateTime>Wednesday, August 05, 2009 11:01:46</qtpRep:LastUpdateTime>
+<qtpRep:ChildObjects>
+</qtpRep:ChildObjects>
+</qtpRep:Object>
+</qtpRep:ChildObjects>
+</qtpRep:Object>
+<qtpRep:Object Class="Dialog" Name="Login">
+<qtpRep:Properties>
+<qtpRep:Property Name="text" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">Login</qtpRep:Value>	</qtpRep:Property>
+<qtpRep:Property Name="nativeclass" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">#32770</qtpRep:Value>	</qtpRep:Property>
+<qtpRep:Property Name="is owned window" Hidden="0" ReadOnly="0" Type="BOOL">	<qtpRep:Value RegularExpression="0">0</qtpRep:Value>	</qtpRep:Property>
+<qtpRep:Property Name="is child window" Hidden="0" ReadOnly="0" Type="BOOL">	<qtpRep:Value RegularExpression="0">0</qtpRep:Value>	</qtpRep:Property>
+</qtpRep:Properties>
+<qtpRep:BasicIdentification>
+<qtpRep:PropertyRef>text</qtpRep:PropertyRef>
+<qtpRep:PropertyRef>nativeclass</qtpRep:PropertyRef>
+<qtpRep:PropertyRef>is owned window</qtpRep:PropertyRef>
+<qtpRep:PropertyRef>is child window</qtpRep:PropertyRef>
+</qtpRep:BasicIdentification>
+<qtpRep:CustomReplay>
+<qtpRep:Behavior Name="simclass" Type="STRING">#32770</qtpRep:Behavior>
+</qtpRep:CustomReplay>
+<qtpRep:LastUpdateTime>Wednesday, August 05, 2009 11:00:59</qtpRep:LastUpdateTime>
+<qtpRep:ChildObjects>
+<qtpRep:Object Class="WinEdit" Name="Password:">
+<qtpRep:Properties>
+<qtpRep:Property Name="nativeclass" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">Edit</qtpRep:Value>	</qtpRep:Property>
+<qtpRep:Property Name="attached text" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">Password:</qtpRep:Value>	</qtpRep:Property>
+</qtpRep:Properties>
+<qtpRep:BasicIdentification>
+<qtpRep:PropertyRef>nativeclass</qtpRep:PropertyRef>
+<qtpRep:PropertyRef>attached text</qtpRep:PropertyRef>
+</qtpRep:BasicIdentification>
+<qtpRep:CustomReplay>
+<qtpRep:Behavior Name="simclass" Type="STRING">Edit</qtpRep:Behavior>
+</qtpRep:CustomReplay>
+<qtpRep:LastUpdateTime>Wednesday, August 05, 2009 11:00:59</qtpRep:LastUpdateTime>
+<qtpRep:ChildObjects>
+</qtpRep:ChildObjects>
+</qtpRep:Object>
+<qtpRep:Object Class="WinEdit" Name="Agent Name:">
+<qtpRep:Properties>
+<qtpRep:Property Name="nativeclass" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">Edit</qtpRep:Value>	</qtpRep:Property>
+<qtpRep:Property Name="attached text" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">Agent Name:</qtpRep:Value>	</qtpRep:Property>
+</qtpRep:Properties>
+<qtpRep:BasicIdentification>
+<qtpRep:PropertyRef>nativeclass</qtpRep:PropertyRef>
+<qtpRep:PropertyRef>attached text</qtpRep:PropertyRef>
+</qtpRep:BasicIdentification>
+<qtpRep:CustomReplay>
+<qtpRep:Behavior Name="simclass" Type="STRING">Edit</qtpRep:Behavior>
+</qtpRep:CustomReplay>
+<qtpRep:LastUpdateTime>Wednesday, August 05, 2009 11:00:59</qtpRep:LastUpdateTime>
+<qtpRep:ChildObjects>
+</qtpRep:ChildObjects>
+</qtpRep:Object>
+<qtpRep:Object Class="WinButton" Name="OK">
+<qtpRep:Properties>
+<qtpRep:Property Name="text" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">OK</qtpRep:Value>	</qtpRep:Property>
+<qtpRep:Property Name="nativeclass" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">Button</qtpRep:Value>	</qtpRep:Property>
+</qtpRep:Properties>
+<qtpRep:BasicIdentification>
+<qtpRep:PropertyRef>text</qtpRep:PropertyRef>
+<qtpRep:PropertyRef>nativeclass</qtpRep:PropertyRef>
+</qtpRep:BasicIdentification>
+<qtpRep:CustomReplay>
+<qtpRep:Behavior Name="simclass" Type="STRING">Button</qtpRep:Behavior>
+</qtpRep:CustomReplay>
+<qtpRep:LastUpdateTime>Wednesday, August 05, 2009 11:00:59</qtpRep:LastUpdateTime>
+<qtpRep:ChildObjects>
+</qtpRep:ChildObjects>
+</qtpRep:Object>
+<qtpRep:Object Class="WinButton" Name="Help">
+<qtpRep:Properties>
+<qtpRep:Property Name="text" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">Help</qtpRep:Value>	</qtpRep:Property>
+<qtpRep:Property Name="nativeclass" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">Button</qtpRep:Value>	</qtpRep:Property>
+</qtpRep:Properties>
+<qtpRep:BasicIdentification>
+<qtpRep:PropertyRef>text</qtpRep:PropertyRef>
+<qtpRep:PropertyRef>nativeclass</qtpRep:PropertyRef>
+</qtpRep:BasicIdentification>
+<qtpRep:CustomReplay>
+<qtpRep:Behavior Name="simclass" Type="STRING">Button</qtpRep:Behavior>
+</qtpRep:CustomReplay>
+<qtpRep:LastUpdateTime>Wednesday, August 05, 2009 11:00:59</qtpRep:LastUpdateTime>
+<qtpRep:ChildObjects>
+</qtpRep:ChildObjects>
+</qtpRep:Object>
+<qtpRep:Object Class="WinButton" Name="Cancel">
+<qtpRep:Properties>
+<qtpRep:Property Name="text" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">Cancel</qtpRep:Value>	</qtpRep:Property>
+<qtpRep:Property Name="nativeclass" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">Button</qtpRep:Value>	</qtpRep:Property>
+</qtpRep:Properties>
+<qtpRep:BasicIdentification>
+<qtpRep:PropertyRef>text</qtpRep:PropertyRef>
+<qtpRep:PropertyRef>nativeclass</qtpRep:PropertyRef>
+</qtpRep:BasicIdentification>
+<qtpRep:CustomReplay>
+<qtpRep:Behavior Name="simclass" Type="STRING">Button</qtpRep:Behavior>
+</qtpRep:CustomReplay>
+<qtpRep:LastUpdateTime>Wednesday, August 05, 2009 11:00:59</qtpRep:LastUpdateTime>
+<qtpRep:ChildObjects>
+</qtpRep:ChildObjects>
+</qtpRep:Object>
+</qtpRep:ChildObjects>
+</qtpRep:Object>
+<qtpRep:Object Class="Dialog" Name="Flight Reservations">
+<qtpRep:Properties>
+<qtpRep:Property Name="text" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">Flight Reservations</qtpRep:Value>	</qtpRep:Property>
+<qtpRep:Property Name="nativeclass" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">#32770</qtpRep:Value>	</qtpRep:Property>
+<qtpRep:Property Name="is owned window" Hidden="0" ReadOnly="0" Type="BOOL">	<qtpRep:Value RegularExpression="0">-1</qtpRep:Value>	</qtpRep:Property>
+<qtpRep:Property Name="is child window" Hidden="0" ReadOnly="0" Type="BOOL">	<qtpRep:Value RegularExpression="0">0</qtpRep:Value>	</qtpRep:Property>
+</qtpRep:Properties>
+<qtpRep:BasicIdentification>
+<qtpRep:PropertyRef>text</qtpRep:PropertyRef>
+<qtpRep:PropertyRef>nativeclass</qtpRep:PropertyRef>
+<qtpRep:PropertyRef>is owned window</qtpRep:PropertyRef>
+<qtpRep:PropertyRef>is child window</qtpRep:PropertyRef>
+</qtpRep:BasicIdentification>
+<qtpRep:CustomReplay>
+<qtpRep:Behavior Name="simclass" Type="STRING">#32770</qtpRep:Behavior>
+</qtpRep:CustomReplay>
+<qtpRep:LastUpdateTime>Wednesday, August 05, 2009 11:01:15</qtpRep:LastUpdateTime>
+<qtpRep:ChildObjects>
+<qtpRep:Object Class="WinButton" Name="OK">
+<qtpRep:Properties>
+<qtpRep:Property Name="text" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">OK</qtpRep:Value>	</qtpRep:Property>
+<qtpRep:Property Name="nativeclass" Hidden="0" ReadOnly="0" Type="STRING">	<qtpRep:Value RegularExpression="0">Button</qtpRep:Value>	</qtpRep:Property>
+</qtpRep:Properties>
+<qtpRep:BasicIdentification>
+<qtpRep:PropertyRef>text</qtpRep:PropertyRef>
+<qtpRep:PropertyRef>nativeclass</qtpRep:PropertyRef>
+</qtpRep:BasicIdentification>
+<qtpRep:CustomReplay>
+<qtpRep:Behavior Name="simclass" Type="STRING">Button</qtpRep:Behavior>
+</qtpRep:CustomReplay>
+<qtpRep:LastUpdateTime>Wednesday, August 05, 2009 11:01:15</qtpRep:LastUpdateTime>
+<qtpRep:ChildObjects>
+</qtpRep:ChildObjects>
+</qtpRep:Object>
+</qtpRep:ChildObjects>
+</qtpRep:Object>
+</qtpRep:Objects>
+<qtpRep:Parameters>
+</qtpRep:Parameters>
+<qtpRep:Metadata>
+</qtpRep:Metadata>
+</qtpRep:ObjectRepository>
